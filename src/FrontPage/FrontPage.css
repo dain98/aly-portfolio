@@ -1,0 +1,210 @@
+:root {
+    --intro-top: 44.270833333333333%;
+    --intro-bottom: 50.1302083333333%;
+    --intro-left: 23.792093704245974%;
+    --intro-right: 64.787701317715959%;
+
+    --main-left: 27.232796486090776%;
+
+    --plus-top: 8.723958333333333%;
+    --plus-bottom: 87.760416666666667%;
+    --plus-left: 82.357247437774524%;
+    --plus-right: 16.837481698389458%;
+}
+
+.frontpage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background: #F9F9F9;
+}
+
+.logo {
+    position: relative;
+    width: 59px;
+    height: 24px;
+    left: 22.913616398243045%;
+    top: 9.114583333333333%;
+}
+
+.logo-ellipse3 {
+    cx: 12px;
+    cy: 12px;
+    r: 12px;
+    fill: #C4C4C4;
+}
+
+.logo-ellipse2 {
+    cx: 47px;
+    cy: 12px;
+    r: 12px;
+    fill: #C4C4C4;
+}
+
+.intro-text {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: var(--intro-left);
+    top: var(--intro-top);
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    color: #000000;
+}
+
+.main-text {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: var(--main-left);
+    top: calc(var(--intro-bottom) + 45px);
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    white-space: nowrap;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.main-text.basedin {
+    position: absolute;
+    padding-top: 42px;
+    color: #6C6C6C;
+}
+
+.main-text.currently {
+    position: absolute;
+    padding-top: 21px;
+}
+
+.main-text.currently.currentproj {
+    position: absolute;
+    padding-left: 90px;
+    color: #4F75FF;
+}
+
+.text-scrolldown {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: calc(var(--main-left) - 62px);
+    top: calc(var(--intro-bottom) + 257px);
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 100%;
+    white-space: nowrap;
+    /* identical to box height, or 8px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #BEBEBE;
+
+    transform: rotate(90deg);
+}
+
+.vector-1 {
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    left: calc(var(--main-left) - 42px);
+    top: calc(var(--intro-bottom) + 60px);
+}
+
+.vector-1-line {
+    position: absolute;
+    left: 0%;
+    right: 100%;
+    top: 0%;
+    bottom: 0%;
+
+    border: 1px solid #BEBEBE;
+}
+
+.circle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: calc(var(--main-left) - 44px);
+    top: calc(var(--intro-bottom) + 41px);
+    border-radius: 3px;
+    border: 1px solid #BEBEBE;
+    box-sizing: border-box;
+}
+
+/* TOP RIGHT CORNER */
+
+.plus {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: var(--plus-right);
+    top: var(--plus-top);
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 150%;
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.date {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: calc(var(--plus-right) - 10px);
+    top: calc(var(--plus-top) + 32px);
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 100%;
+    white-space: nowrap;
+    /* identical to box height, or 10px */
+
+    letter-spacing: 0.1em;
+
+    color: #000000;
+
+    transform: rotate(90deg);
+}
+
+.vector-2 {
+    position: absolute;
+    width: 0px;
+    height: 11.067708333333333%;
+    right: calc(var(--plus-right) - 4px);
+    bottom:  + 14px;
+}
+
+.vector-2-line {
+    position: absolute;
+    left: 410.68%;
+    right: -310.68%;
+    top: 0%;
+    bottom: 0%;
+
+    border: 1px solid #BEBEBE;
+}
