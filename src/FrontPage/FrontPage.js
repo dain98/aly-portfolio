@@ -5,7 +5,6 @@ import { Route, useHistory } from 'react-router-dom';
 import './FrontPage.css';
 import 'typeface-lato';
 import 'typeface-fira-code';
-import {ReactComponent as Vector } from '../assets/vector-1.svg';
 
 const Fadein = styled.div`animation: 2s ${keyframes`${fadein}`} infinite`;
 
