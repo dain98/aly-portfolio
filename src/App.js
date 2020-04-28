@@ -8,6 +8,7 @@ function App() {
   return (
       <Switch>
         <Route exact path={'/'} component={FrontPage}/>
+        <FrontPage />
       </Switch>
   );
 }
