@@ -10,6 +10,7 @@
     --plus-bottom: 87.760416666666667%;
     --plus-left: 82.357247437774524%;
     --plus-right: 16.837481698389458%;
+    --v2-bottom: calc(var(--plus-top) + 130px + 11.067708333333333%);
 }
 
 .frontpage {
@@ -196,7 +197,7 @@
     width: 0px;
     height: 11.067708333333333%;
     right: calc(var(--plus-right) - 4px);
-    bottom:  + 14px;
+    top:  calc(var(--plus-top) + 130px);
 }
 
 .vector-2-line {
@@ -207,4 +208,37 @@
     bottom: 0%;
 
     border: 1px solid #BEBEBE;
+}
+
+.time {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: calc(var(--plus-right) - 10px);
+    top: calc(var(--v2-bottom) + 10px);
+    position: absolute;
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 100%;
+    white-space: nowrap;
+    letter-spacing: 0.1em;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.time.actual {
+    top: calc(var(--v2-bottom) + 128px);
+    color: #4F75FF;
+}
+
+.popout {
+    position: absolute;
+    width: 166px;
+    height: 271px;
+    right: calc(var(--plus-right) + 35px);
+    top: 9.114583333333333%;
+
+    background: #FFFFFF;
 }
