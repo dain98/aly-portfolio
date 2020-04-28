@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cad228f9d4b315fc5749a74f1e0323ee",
+    "revision": "2073f7cb13e5648265b4003e88152be7",
     "url": "/aly-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aly-portfolio/static/css/2.6b17d743.chunk.css"
   },
   {
-    "revision": "68fbb8022e7cc9b00891",
+    "revision": "e72b15fc6f6edab54c53",
     "url": "/aly-portfolio/static/css/main.dfcf541d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aly-portfolio/static/js/2.56e51c78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68fbb8022e7cc9b00891",
-    "url": "/aly-portfolio/static/js/main.dde56dd3.chunk.js"
+    "revision": "e72b15fc6f6edab54c53",
+    "url": "/aly-portfolio/static/js/main.c5ce401f.chunk.js"
   },
   {
     "revision": "26788a5c77217c7e92c7",
@@ -146,9 +146,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd86aaa72d23c91de85390a93aa6bef2",
     "url": "/aly-portfolio/static/media/lato-latin-900italic.bd86aaa7.woff2"
-  },
-  {
-    "revision": "1a9b1a4d4880ccf5605b396d9c35f0cb",
-    "url": "/aly-portfolio/static/media/vector-1.1a9b1a4d.svg"
   }
 ]);
