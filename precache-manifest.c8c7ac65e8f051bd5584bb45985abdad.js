@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2073f7cb13e5648265b4003e88152be7",
+    "revision": "2890cfca57650b1e3e47b9a8693546fe",
     "url": "/aly-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aly-portfolio/static/css/2.6b17d743.chunk.css"
   },
   {
-    "revision": "e72b15fc6f6edab54c53",
+    "revision": "7a50116209db27788e2c",
     "url": "/aly-portfolio/static/css/main.dfcf541d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aly-portfolio/static/js/2.56e51c78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e72b15fc6f6edab54c53",
-    "url": "/aly-portfolio/static/js/main.c5ce401f.chunk.js"
+    "revision": "7a50116209db27788e2c",
+    "url": "/aly-portfolio/static/js/main.fad39312.chunk.js"
   },
   {
     "revision": "26788a5c77217c7e92c7",
