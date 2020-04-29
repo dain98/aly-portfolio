@@ -49,7 +49,11 @@ const FrontPage = () => {
                 <hr className={'vector-1-line'}/>
             </div>
             <span className={"circle"}/>
-            <a className={'plus'} onClick={plusClick}>+</a>
+            {menu ? (
+                <a className={'plus'} onClick={plusClick}>-</a>
+            ) : (
+                <a className={'plus'} onClick={plusClick}>+</a>
+            )}
             <a className={'date'}>{fullDate}</a>
             <div className={'vector-2'} >
                 <hr className={'vector-2-line'}/>

@@ -160,6 +160,7 @@
     right: var(--plus-right);
     top: var(--plus-top);
 
+
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
@@ -167,6 +168,13 @@
     line-height: 150%;
 
     letter-spacing: 0.05em;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
 
     color: #000000;
 }
