@@ -23,7 +23,6 @@ class App extends React.Component {
             <div>
                 <NavBar/>
                 <div data-aos={"fade-down"} >
-
                     <FrontPage/>
                 </div>
             </div>
