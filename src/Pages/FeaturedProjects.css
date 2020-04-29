@@ -1,5 +1,6 @@
 :root {
     --main-left: 27.232796486090776%;
+    --textfrom-left: calc(var(--main-left) - 30px + 7.467057101%);
 }
 
 .featproj {
@@ -14,57 +15,138 @@
 .vector-3 {
     position: absolute;
     width: 0px;
-    height: calc(25.8463541%);
+    height: 22.526041667%;
     left: calc(var(--main-left) - 42px);
     top: 0px;
-}
-
-.vector-3-line {
-    position: absolute;
-    left: 0%;
-    right: 100%;
-    top: 0%;
-    bottom: 0%;
-
     border: 1px solid #BEBEBE;
 }
 
 .vector-4 {
     position: absolute;
-    width: 0px;
-    height: 6.640625%;
-    left: calc(var(--main-left) - 0px);
-    top: calc(22.5260416%);
-}
-
-.vector-4-line {
-    position: absolute;
-    left: inf%;
-    right: -inf%;
-    top: 0%;
-    bottom: 0%;
-
+    width: 7.467057101%;
+    height: 0px;
+    left: calc(var(--main-left) - 42px);
+    top: 22.526041667%;
     border: 1px solid #BEBEBE;
-    transform: rotate(90deg);
 }
 
 .featured {
     position: absolute;
     width: 0px;
     height: 0px;
-    left: 32.2108346%;
-    top: 21.484375%;
+    left: var(--textfrom-left);
+    top: 22.526041667%;
 
     font-family: Fira Code;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
-    line-height: 150%;
-    /* identical to box height, or 15px */
+    font-size: 18px;
 
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
 
     color: #BEBEBE;
+}
+
+.projtext {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: var(--textfrom-left);
+    top: 26.739583333%;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 29px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
+
+.proj {
+    position: absolute;
+    width: 50.805270864%;
+    height: 47.265625%;
+    left: 23.865300146%;
+    top: 35.546875%;
+}
+
+.proj.img {
+    position: absolute;
+    width: 66.5706052%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #DEDEDE;
+}
+
+.proj.desc {
+    position: absolute;
+    width: 33.285302594%;
+    height: 100%;
+    left: 66.570605187%;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.proj.desc.title {
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 17.3160173%;
+    top: 34.986225895%;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.proj.desc.text {
+    position: absolute;
+    width: 60%;
+    height: 0%;
+    left: 17.3160173%;
+    top: 46.005509642%;
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+
+    color: #797979;
+
+}
+.proj.desc.learnmore {
+    position: absolute;
+    width: 60%;
+    height: 0%;
+    left: 17.3160173%;
+    top: 62.534435262%;
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+
+    color: #4E75FF;
 }

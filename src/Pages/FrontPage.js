@@ -17,9 +17,9 @@ const FrontPage = () => {
             <a className={"main-text currently"} >CURRENTLY: </a> <a className={"main-text currently currentproj"} >FINISHING THIS WEBSITE.</a>
             <a className={"main-text basedin"} >BASED IN NYC.</a>
             <a className={"text-scrolldown"} >SCROLL DOWN >></a>
-            <div className={'vector-1'} >
-                <hr className={'vector-1-line'}/>
-            </div>
+            <div className={'vector-1'}></div>
+
+
             <span className={"circle"}/>
             <FeaturedProjects />
         </div>
