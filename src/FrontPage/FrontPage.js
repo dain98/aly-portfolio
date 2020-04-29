@@ -18,6 +18,7 @@ const FrontPage = () => {
     const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEPT", "OCT", "NOV", "DEC"];
     const [fullTime, setTime] = useState(d.toLocaleTimeString());
     const [fullDate, setDate] = useState(months[d.getMonth()] + " " + d.getDate() + " - " + d.getFullYear());
+    const [menu, setMenu] = useState(false);
     useEffect(() => {
         setInterval(() => {
             let d = new Date();
@@ -27,6 +28,10 @@ const FrontPage = () => {
     });
     function handleClick() {
         alert("Button Clicked!")
+    }
+
+    function plusClick() {
+        setMenu(!menu);
     }
 
     return (
@@ -44,18 +49,22 @@ const FrontPage = () => {
                 <hr className={'vector-1-line'}/>
             </div>
             <span className={"circle"}/>
-            <a className={'plus'}>+</a>
+            <a className={'plus'} onClick={plusClick}>+</a>
             <a className={'date'}>{fullDate}</a>
             <div className={'vector-2'} >
                 <hr className={'vector-2-line'}/>
             </div>
             <a className={'time'}>IT IS CURRENTLY:</a>
             <a className={'time actual'}>{fullTime}</a>
-            <a className={'popout'}>
-                <a className={'about'} onClick={handleClick}>ABOUT</a>
-                <a className={'work'} onClick={handleClick}>WORK</a>
-                <a className={'contact'} onClick={handleClick}>CONTACT</a>
-            </a>
+            {menu ? (
+                <a className={'popout'}>
+                    <a className={'about'} onClick={handleClick}>ABOUT</a>
+                    <a className={'work'} onClick={handleClick}>WORK</a>
+                    <a className={'contact'} onClick={handleClick}>CONTACT</a>
+                </a>
+            ) : (
+                <a></a>
+            )}
 
             {/*<svg className={'popout'} viewBox="0 0 166 271" fill="none" xmlns="http://www.w3.org/2000/svg">*/}
             {/*    <rect width="166" height="271" fill="white"/>*/}
