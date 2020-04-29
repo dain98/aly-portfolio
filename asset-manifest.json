@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aly-portfolio/static/css/main.55be5929.chunk.css",
+    "main.css": "/aly-portfolio/static/css/main.cee10532.chunk.css",
     "main.js": "/aly-portfolio/static/js/main.cdc022e0.chunk.js",
     "main.js.map": "/aly-portfolio/static/js/main.cdc022e0.chunk.js.map",
     "runtime-main.js": "/aly-portfolio/static/js/runtime-main.9f3fba0a.js",
@@ -9,10 +9,10 @@
     "static/js/2.093f3614.chunk.js": "/aly-portfolio/static/js/2.093f3614.chunk.js",
     "static/js/2.093f3614.chunk.js.map": "/aly-portfolio/static/js/2.093f3614.chunk.js.map",
     "index.html": "/aly-portfolio/index.html",
-    "precache-manifest.8e5f21d906d9a21f50a56ca16a268aad.js": "/aly-portfolio/precache-manifest.8e5f21d906d9a21f50a56ca16a268aad.js",
+    "precache-manifest.af09c55696f83844941332e8050aee38.js": "/aly-portfolio/precache-manifest.af09c55696f83844941332e8050aee38.js",
     "service-worker.js": "/aly-portfolio/service-worker.js",
     "static/css/2.94c1d3db.chunk.css.map": "/aly-portfolio/static/css/2.94c1d3db.chunk.css.map",
-    "static/css/main.55be5929.chunk.css.map": "/aly-portfolio/static/css/main.55be5929.chunk.css.map",
+    "static/css/main.cee10532.chunk.css.map": "/aly-portfolio/static/css/main.cee10532.chunk.css.map",
     "static/js/2.093f3614.chunk.js.LICENSE.txt": "/aly-portfolio/static/js/2.093f3614.chunk.js.LICENSE.txt",
     "static/media/index.css": "/aly-portfolio/static/media/lato-latin-900italic.bd86aaa7.woff2"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.9f3fba0a.js",
     "static/css/2.94c1d3db.chunk.css",
     "static/js/2.093f3614.chunk.js",
-    "static/css/main.55be5929.chunk.css",
+    "static/css/main.cee10532.chunk.css",
     "static/js/main.cdc022e0.chunk.js"
   ]
 }
