@@ -242,3 +242,62 @@
 
     background: #FFFFFF;
 }
+
+.about {
+    position: absolute;
+    width: 63px;
+    height: 20px;
+    left: 30px;
+    top: 29px;
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
+
+.work {
+    position: absolute;
+    width: 36px;
+    height: 21px;
+    left: 30px;
+    top: 81px;
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.contact {
+    position: absolute;
+    width: 63px;
+    height: 21px;
+    left: 30px;
+    top: 133px;
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+}
