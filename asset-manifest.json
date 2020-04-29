@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/aly-portfolio/static/css/main.aba9a0a8.chunk.css",
-    "main.js": "/aly-portfolio/static/js/main.522323b0.chunk.js",
-    "main.js.map": "/aly-portfolio/static/js/main.522323b0.chunk.js.map",
+    "main.css": "/aly-portfolio/static/css/main.4857b7f5.chunk.css",
+    "main.js": "/aly-portfolio/static/js/main.f44f3c14.chunk.js",
+    "main.js.map": "/aly-portfolio/static/js/main.f44f3c14.chunk.js.map",
     "runtime-main.js": "/aly-portfolio/static/js/runtime-main.9f3fba0a.js",
     "runtime-main.js.map": "/aly-portfolio/static/js/runtime-main.9f3fba0a.js.map",
     "static/css/2.94c1d3db.chunk.css": "/aly-portfolio/static/css/2.94c1d3db.chunk.css",
-    "static/js/2.562c84b1.chunk.js": "/aly-portfolio/static/js/2.562c84b1.chunk.js",
-    "static/js/2.562c84b1.chunk.js.map": "/aly-portfolio/static/js/2.562c84b1.chunk.js.map",
+    "static/js/2.093f3614.chunk.js": "/aly-portfolio/static/js/2.093f3614.chunk.js",
+    "static/js/2.093f3614.chunk.js.map": "/aly-portfolio/static/js/2.093f3614.chunk.js.map",
     "index.html": "/aly-portfolio/index.html",
-    "precache-manifest.794a333806123b9327ee356af9c5c57d.js": "/aly-portfolio/precache-manifest.794a333806123b9327ee356af9c5c57d.js",
+    "precache-manifest.7745ae931a2023c44a43b9fe9361a6c7.js": "/aly-portfolio/precache-manifest.7745ae931a2023c44a43b9fe9361a6c7.js",
     "service-worker.js": "/aly-portfolio/service-worker.js",
     "static/css/2.94c1d3db.chunk.css.map": "/aly-portfolio/static/css/2.94c1d3db.chunk.css.map",
-    "static/css/main.aba9a0a8.chunk.css.map": "/aly-portfolio/static/css/main.aba9a0a8.chunk.css.map",
-    "static/js/2.562c84b1.chunk.js.LICENSE.txt": "/aly-portfolio/static/js/2.562c84b1.chunk.js.LICENSE.txt",
+    "static/css/main.4857b7f5.chunk.css.map": "/aly-portfolio/static/css/main.4857b7f5.chunk.css.map",
+    "static/js/2.093f3614.chunk.js.LICENSE.txt": "/aly-portfolio/static/js/2.093f3614.chunk.js.LICENSE.txt",
     "static/media/index.css": "/aly-portfolio/static/media/lato-latin-900italic.bd86aaa7.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.9f3fba0a.js",
     "static/css/2.94c1d3db.chunk.css",
-    "static/js/2.562c84b1.chunk.js",
-    "static/css/main.aba9a0a8.chunk.css",
-    "static/js/main.522323b0.chunk.js"
+    "static/js/2.093f3614.chunk.js",
+    "static/css/main.4857b7f5.chunk.css",
+    "static/js/main.f44f3c14.chunk.js"
   ]
 }
