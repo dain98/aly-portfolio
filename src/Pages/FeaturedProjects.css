@@ -1,0 +1,70 @@
+:root {
+    --main-left: 27.232796486090776%;
+}
+
+.featproj {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100vh;
+    background: #F9F9F9;
+    fong-size: 0;
+}
+
+.vector-3 {
+    position: absolute;
+    width: 0px;
+    height: calc(25.8463541%);
+    left: calc(var(--main-left) - 42px);
+    top: 0px;
+}
+
+.vector-3-line {
+    position: absolute;
+    left: 0%;
+    right: 100%;
+    top: 0%;
+    bottom: 0%;
+
+    border: 1px solid #BEBEBE;
+}
+
+.vector-4 {
+    position: absolute;
+    width: 0px;
+    height: 6.640625%;
+    left: calc(var(--main-left) - 0px);
+    top: calc(22.5260416%);
+}
+
+.vector-4-line {
+    position: absolute;
+    left: inf%;
+    right: -inf%;
+    top: 0%;
+    bottom: 0%;
+
+    border: 1px solid #BEBEBE;
+    transform: rotate(90deg);
+}
+
+.featured {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 32.2108346%;
+    top: 21.484375%;
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #BEBEBE;
+}

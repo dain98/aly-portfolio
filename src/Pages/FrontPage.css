@@ -1,0 +1,169 @@
+:root {
+    --intro-top: 44.270833334%;
+    --intro-bottom: 50.130208334%;
+    --intro-left: 23.792093704245974%;
+    --intro-right: 64.787701317715959%;
+
+    --main-left: 27.232796486090776%;
+}
+
+.frontpage {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background: #F9F9F9;
+    font-size: 0;
+}
+
+
+.logo {
+    position: absolute;
+    width: 59px;
+    height: 24px;
+    left: 22.913616398243045%;
+    top: 9.114583334%;
+}
+
+.logo-ellipse3 {
+    cx: 12px;
+    cy: 12px;
+    r: 12px;
+    fill: #C4C4C4;
+}
+
+.logo-ellipse2 {
+    cx: 47px;
+    cy: 12px;
+    r: 12px;
+    fill: #C4C4C4;
+}
+
+.intro-text {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: var(--intro-left);
+    top: var(--intro-top);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+
+    color: #000000;
+}
+
+.main-text {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: var(--main-left);
+    top: calc(var(--intro-bottom) + 45px);
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    white-space: nowrap;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+
+    color: #000000;
+}
+
+.main-text.basedin {
+    position: absolute;
+    padding-top: 42px;
+    color: #6C6C6C;
+}
+
+.main-text.currently {
+    position: absolute;
+    padding-top: 21px;
+}
+
+.main-text.currently.currentproj {
+    position: absolute;
+    padding-left: 90px;
+    color: #4F75FF;
+}
+
+.text-scrolldown {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: calc(var(--main-left) - 62px);
+    top: calc(var(--intro-bottom) + 257px);
+
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 100%;
+    white-space: nowrap;
+    /* identical to box height, or 8px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+
+    color: #BEBEBE;
+
+    transform: rotate(90deg);
+}
+
+.vector-1 {
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    left: calc(var(--main-left) - 42px);
+    top: calc(var(--intro-bottom) + 60px);
+}
+
+.vector-1-line {
+    position: absolute;
+    left: 0%;
+    right: 100%;
+    top: 0%;
+    bottom: 0%;
+
+    border: 1px solid #BEBEBE;
+}
+
+.circle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: calc(var(--main-left) - 44px);
+    top: calc(var(--intro-bottom) + 41px);
+    border-radius: 3px;
+    border: 1px solid #BEBEBE;
+    box-sizing: border-box;
+}
+
+/* TOP RIGHT CORNER */
